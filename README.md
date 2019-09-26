@@ -11,6 +11,5 @@ The user should open the macro, and hit the "Run" button, then point the dialog 
 The macro measures all of the objects using the selected parameter, then uses the "Fill" command to replace their colour value with one determined by either their rank position for that parameter, or the absolute value of that parameter.
 
 Caveats - I wrote this in about 30 mins. It doesn't yet have a way to do the following:
- - Deal with holes in objects (the ROI Manager basically ignores holes)
  - Deal with multiple objects with the same rank
  - Correctly/attractively/intuitively encode variance; if most of your objects are near the same value, and there are a few outliers, it would be neat to have a way to make it such that the colour assignment ignores the outliers, and returns lots of 
